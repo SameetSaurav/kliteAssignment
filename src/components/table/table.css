@@ -1,0 +1,112 @@
+.container{
+  display: flex;
+}
+
+
+.table {
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+    width: 100%;
+    /* padding: 10px 20px; */
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    border: 1px solid rgb(202, 201, 201);
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+  }
+
+  .descriptionColumn {
+    min-width: 100px;
+    max-width: 120px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    .categoryMap{
+      border: 1px solid ;
+      border-radius: 5px;
+      margin-right: 10px;
+      padding: 2px;
+    }
+
+    .avatarStack {
+      display: flex;
+    }
+    
+    .avatar {
+      width: 23px; 
+      height: 23px; 
+      margin-right: -5px 
+    }
+  }
+
+  .checkTable{
+    display: flex;
+    align-items: center;
+
+    img{
+        height: 23px;
+        width: 23px;
+        border-radius: 30%;
+        margin-right: 5px;
+    }
+
+    i{
+        height: 10px;
+        width: 10px;
+    }
+
+    .checkboxButton{
+        width: 25px;
+        height: 20px;
+        background-color: #fafafa;
+        margin-right: 15px;
+        display: flex;
+        justify-content: center;
+        border-radius: 5px;
+        border: 1px solid rgb(202, 201, 201);
+        
+      }
+    }
+
+.footerTable {
+  width: 70%;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  display: flex;
+  border-radius: 8px;
+}
+
+.footerTable-button {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px 5px;
+  border: none;
+  border: 1px solid rgb(202, 201, 201);
+  border-radius: 5px;
+  cursor: pointer;
+  i{
+    margin-right: 3px;
+  }
+  span{
+    background-color: black;
+    color: white;
+    padding: 3px;
+    margin-right: 3px;
+    border-radius: 5px;
+  }
+}
+
+.footerTable-button:hover {
+  background-color: #0056b3;
+}
+
+  
